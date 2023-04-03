@@ -12,7 +12,7 @@ git clone https://github.com/yanlanfeixue/genshin-char-img.git ./plugins/miao-pl
 cp -r ./plugins/miao-plugin/resources/genshin-char-img/* ./plugins/miao-plugin/resources/character-img
 ```
 
-如果在使用过程中有文件调用权限问题，可以使用以下命令，将拷贝进去的所有文件开放权限
+如果在使用过程中有文件调用权限问题，可以使用以下命令，将拷贝进去的所有文件开放权限（注意将username改成自己的用户名）
 ```
 sudo chown username ./plugins/miao-plugin/resources/character-img/* -R
 ```
@@ -24,4 +24,3 @@ sudo chown username ./plugins/miao-plugin/resources/character-img/* -R
 资源均来源于网络，若存在侵权可联络删除
 
 邮箱：```yanlanfeixue@gmail.com```
-
