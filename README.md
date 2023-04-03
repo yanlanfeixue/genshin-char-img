@@ -5,7 +5,7 @@
 ## 使用方法
 在Yunzai-Bot根目录，使用以下命令拉取
 ```
-git clone https://github.com/yanlanfeixue/genshin-char-img.git ./plugins/miao-plugin/resources/character-img
+git clone https://github.com/yanlanfeixue/genshin-char-img.git ./plugins/miao-plugin/resources/yanlanfeixue-genshin-char-img
 ```
 
 
