@@ -5,7 +5,16 @@
 ## 使用方法
 在Yunzai-Bot根目录，使用以下命令拉取
 ```
-git clone https://github.com/yanlanfeixue/genshin-char-img.git ./plugins/miao-plugin/resources/character-img
+git clone https://github.com/yanlanfeixue/genshin-char-img.git ./plugins/miao-plugin/resources/genshin-char-img
+```
+使用以下命令，将所有文件复制到miao-plugin的目录
+```
+cp -r ./plugins/miao-plugin/resources/genshin-char-img/* ./plugins/miao-plugin/resources/character-img
+```
+
+如果在使用过程中有文件调用权限问题，可以使用以下命令，将拷贝进去的所有文件开放权限
+```
+sudo chown username ./plugins/miao-plugin/resources/character-img/* -R
 ```
 
 
